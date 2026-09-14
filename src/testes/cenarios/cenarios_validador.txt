@@ -1,0 +1,22 @@
+Cenário 1 (Tudo certo):
+- Idade: >18
+- Score: >500
+- Resultado = APROVADO
+
+
+Cenário 2 (Idade não valida):
+- Idade: <18
+- Score: >500
+- Resultado = REPROVADO
+
+
+Cenário 3 (Score não válido):
+- Idade: >18
+- Score: <500
+- Resultado = REPROVADO
+
+
+Cenário 4 (Idade e Score não válido):
+- Idade: <18
+- Score: <500
+- Resultado = REPROVADO
